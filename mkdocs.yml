@@ -1,4 +1,5 @@
 site_name: Milime Wiki
+site_url: https://wiki.milime.jumpticket.games/
 docs_dir: wiki
 repo_url: https://github.com/Jumpticket-Games/Milime-Wiki
 repo_name: Milime-Wiki
@@ -23,11 +24,10 @@ theme:
   icon:
     repo: fontawesome/brands/github
   font:
-    text: Cairo
+    text: Noto Serif SC
     code: JetBrains Mono
   features:
     - navigation.instant
-    # - navigation.tabs
     - navigation.indexes
     - navigation.top
     - toc.integrate
@@ -41,6 +41,10 @@ extra:
       make our documentation better.
   social:
     - icon: fontawesome/solid/paper-plane
+      name: Mail
       link: mailto:contact@jumpticket.games
+    - icon: material/home
+      name: Jumpticket Games
+      link: https://jumpticket.games/
 plugins:
   - search
