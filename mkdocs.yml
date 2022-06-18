@@ -32,13 +32,6 @@ theme:
     - navigation.top
     - toc.integrate
 extra:
-  consent:
-    title: Cookie consent
-    description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
   social:
     - icon: fontawesome/solid/paper-plane
       name: Mail
@@ -48,3 +41,9 @@ extra:
       link: https://jumpticket.games/
 plugins:
   - search
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
