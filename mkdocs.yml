@@ -5,6 +5,7 @@ repo_url: https://github.com/Jumpticket-Games/Milime-Wiki
 repo_name: Milime-Wiki
 theme:
   name: material
+  custom_dir: replace
   language: zh
   palette:
     # - primary: white
