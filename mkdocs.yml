@@ -1,5 +1,5 @@
 site_name: Milime Wiki
-site_url: https://wiki.milime.jumpticket.games/
+site_url: https://milime.wiki/
 docs_dir: wiki
 repo_url: https://github.com/Jumpticket-Games/Milime-Wiki
 repo_name: Milime-Wiki
@@ -8,8 +8,6 @@ theme:
   custom_dir: replace
   language: zh
   palette:
-    # - primary: white
-    # - accent: teal
     - scheme: default
       primary: white
       accent: teal
