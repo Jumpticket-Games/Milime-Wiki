@@ -13,13 +13,13 @@ theme:
       accent: teal
       toggle:
         icon: material/brightness-7 
-        name: RTX ON！！！
+        name: RTX ON!!!
     - scheme: slate
       primary: blue grey
       accent: teal
       toggle:
         icon: material/brightness-4
-        name: RTX OFF！！！
+        name: RTX OFF!!!
   icon:
     repo: fontawesome/brands/github
   font:
