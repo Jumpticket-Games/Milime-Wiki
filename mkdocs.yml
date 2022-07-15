@@ -26,6 +26,7 @@ theme:
     text: Noto Serif SC
     code: JetBrains Mono
   features:
+    - navigation.sections
     - navigation.instant
     - navigation.indexes
     - navigation.top
@@ -46,3 +47,14 @@ plugins:
       minify_css: true
       htmlmin_opts:
         remove_comments: true
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
