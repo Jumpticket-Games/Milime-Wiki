@@ -3,10 +3,10 @@ site_url: https://milime.wiki/
 docs_dir: wiki
 repo_url: https://github.com/Jumpticket-Games/Milime-Wiki
 repo_name: Milime-Wiki
+
 theme:
   name: material
   custom_dir: replace
-  language: zh
   palette:
     - scheme: default
       primary: white
@@ -31,6 +31,8 @@ theme:
     - navigation.indexes
     - navigation.top
     - toc.integrate
+    - navigation.tracking
+
 extra:
   social:
     - icon: fontawesome/solid/paper-plane
@@ -39,6 +41,7 @@ extra:
     - icon: material/home
       name: Jumpticket Games
       link: https://jumpticket.games/
+
 plugins:
   - search
   - minify:
@@ -47,6 +50,7 @@ plugins:
       minify_css: true
       htmlmin_opts:
         remove_comments: true
+
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -58,3 +62,4 @@ markdown_extensions:
   - pymdownx.tilde
   - attr_list
   - md_in_html
+  - meta
