@@ -1,5 +1,5 @@
 # 首页
-<p style="text-align: center; font-size: 2rem;">欢迎来到Milime的官方WIKI!</p>
+<p style="text-align: center; font-size: 2rem;">欢迎来到Milime的官方Wiki!</p>
 
 欢迎各位对我们的Wiki进行编辑（不要有太奇怪的东西qwq）
 
