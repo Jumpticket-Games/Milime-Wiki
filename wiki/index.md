@@ -3,6 +3,10 @@
 
 欢迎各位对我们的Wiki进行编辑（不要有太奇怪的东西qwq）
 
+Milime开发组正在全力搞开发！请各位耐心等待！  
+![](images/chat_devteam.png)
+
+
 <div style="background: white;">
 
 <a href="https://github.com/orgs/Jumpticket-Games/projects/1" alt="开发计划图">
