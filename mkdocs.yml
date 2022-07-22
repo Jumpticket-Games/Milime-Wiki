@@ -6,7 +6,6 @@ repo_name: Milime-Wiki
 
 theme:
   name: material
-  custom_dir: replace
   palette:
     - scheme: default
       primary: white
@@ -26,6 +25,7 @@ theme:
     text: Noto Serif SC
     code: JetBrains Mono
   features:
+    - navigation.expand
     - navigation.sections
     - navigation.instant
     - navigation.indexes
@@ -45,7 +45,7 @@ extra:
 plugins:
   - search
   - minify:
-      minify_html: false
+      minify_html: true
       minify_js: true
       minify_css: true
       htmlmin_opts:
@@ -63,3 +63,6 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - meta
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
